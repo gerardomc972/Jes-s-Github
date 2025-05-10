@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+s<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -262,7 +262,7 @@
 
    <P> <Label for="EDAD"> EDAD: <Input type="number" name="EDAD" id="EDAD" min="18" max="80" class="datosPersonales" > </label> </P>
 
-    <P> <Label for="OBSERVACION"> OBSERVACION: <Textarea name="OBSERVACION" id="OBSERVACION"
+    <P> <Label for="observacion"> observacion: <Textarea name="observacion" id="observacion"
       style="height: 180PX;width: 300px; font-size: 25px;" > </Textarea> <Label> </P> 
 
         <p>
@@ -278,6 +278,13 @@
 
               </label>
         </p>
+
+        
+        <p style="font-size: 20px;"> <label for="numColegios"> Numero Colegios que estudió: <input type="number" id="numColegios" name="numColegios"  style="font-size: 20px;" min="1" max="12"> </label> </p>
+
+<div id="DetalleColegios"> DEtalle Estudios: </div>
+
+
 
 
         <p><label>CURSOS LLEVADOS </label>
@@ -383,7 +390,15 @@
 onclick="FCapturarNombre()" > Copiar nombre a observacion </button>
 <br> <br> <br>
 
+<button style="font-size: 30px;" type="button"
 
+onclick="FValidarCiclo()" > Enviar ciclo a observacion </button>
+<br> <br> <br>
+
+<button style="font-size: 30px;" type="button"
+
+onclick="FCrearDatosCiclo()" > Ingresar datos por ciclo a observacion </button>
+<br> <br> <br>
 
 <button type="submit" style="font-size:30px ;" > enviar </button>
 
