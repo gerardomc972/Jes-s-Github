@@ -174,6 +174,6 @@ document.addEventListener("DOMContentLoaded", () => {
                             <input type="text" id="cole[${i}" > </div>`;
       }
     document.getElementById("DetalleColegios").innerHTML=content;
-    
+          
     });
     });
